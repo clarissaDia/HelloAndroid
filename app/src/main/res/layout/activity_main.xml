@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D7CCC8">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacity"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:paddingBottom="@dimen/padding"
+        android:paddingTop="@dimen/padding"
+        android:scaleType="centerCrop"/>
+
+
+     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/welcome"
+         android:textSize="@dimen/top_head"
+        android:layout_gravity="center_horizontal"
+         android:layout_marginBottom="@dimen/margin_bottom"
+         android:textColor="@color/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_bottom"
+        android:text="@string/address"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:textColor="@color/text"
+        android:textSize="@dimen/font_size"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/California"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:textColor="@color/text"
+        android:textSize="@dimen/font_size"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:textColor="@color/text"
+        android:textSize="@dimen/font_size"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/web"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:textColor="@color/text"
+        android:textSize="@dimen/font_size"
+        />
+
+</LinearLayout>
+
+</ScrollView>
+
